@@ -1,0 +1,405 @@
+{
+  "recipes": [
+    {
+      "id": "recipe_001",
+      "name": "Turmeric Chicken Power Bowl",
+      "servings": 1,
+      "short_description": "Seasoned chicken with turmeric and garlic over sautéed zucchini, spinach, and avocado, finished with chia.",
+      "ingredients": [
+        { "name": "Chicken breast", "amount": "8 oz", "grams": 227, "prep": "diced" },
+        { "name": "Spinach", "amount": "2 cups", "grams": 60, "prep": "whole leaves" },
+        { "name": "Zucchini", "amount": "1 medium", "grams": 150, "prep": "sliced" },
+        { "name": "Avocado", "amount": "1/2 medium", "grams": 75, "prep": "sliced" },
+        { "name": "Olive oil", "amount": "1 tbsp", "grams": 14, "prep": "liquid" },
+        { "name": "Garlic", "amount": "2 cloves", "grams": 6, "prep": "minced" },
+        { "name": "Ground turmeric", "amount": "1/2 tsp", "grams": 1, "prep": "powder" },
+        { "name": "Black pepper", "amount": "1/4 tsp", "grams": 0.5, "prep": "ground" },
+        { "name": "Chia seeds", "amount": "1 tbsp", "grams": 12, "prep": "whole" }
+      ],
+      "macros": {
+        "protein_g": 45,
+        "carbs_g": 10,
+        "fat_g": 22,
+        "calories": 430,
+        "omega_3_6_ratio": 11
+      },
+      "instructions": "Heat half the olive oil in a pan over medium heat. Add minced garlic and cook briefly. Add diced chicken with turmeric and black pepper, cook until fully done (165°F internal). Remove and set aside. In the same pan, add remaining oil, cook sliced zucchini until slightly soft, then add spinach and cook until wilted. Plate vegetables, top with chicken, add sliced avocado, and finish with chia seeds."
+    },
+    {
+      "id": "recipe_002",
+      "name": "Turkey Stuffed Bell Peppers",
+      "servings": 1,
+      "short_description": "Bell peppers stuffed with spiced ground turkey, cauliflower rice, and spinach, baked until tender.",
+      "ingredients": [
+        { "name": "Ground turkey", "amount": "8 oz", "grams": 227, "prep": "loose" },
+        { "name": "Bell peppers", "amount": "2 halves", "grams": 150, "prep": "halved" },
+        { "name": "Cauliflower rice", "amount": "1 cup", "grams": 100, "prep": "loose" },
+        { "name": "Spinach", "amount": "1 cup", "grams": 30, "prep": "chopped" },
+        { "name": "Olive oil", "amount": "1 tbsp", "grams": 14, "prep": "liquid" },
+        { "name": "Garlic", "amount": "2 cloves", "grams": 6, "prep": "minced" },
+        { "name": "Ground turmeric", "amount": "1/2 tsp", "grams": 1, "prep": "powder" },
+        { "name": "Black pepper", "amount": "1/4 tsp", "grams": 0.5, "prep": "ground" },
+        { "name": "Chia seeds", "amount": "1 tbsp", "grams": 12, "prep": "whole" }
+      ],
+      "macros": { "protein_g": 38, "carbs_g": 13, "fat_g": 18, "calories": 380, "omega_3_6_ratio": 12 },
+      "instructions": "Cook ground turkey with garlic, turmeric, and black pepper until done. Mix in cauliflower rice and spinach until softened. Stuff mixture into halved bell peppers. Bake at 375°F for 15-20 minutes until peppers are tender. Top with chia seeds."
+    },
+    {
+      "id": "recipe_003",
+      "name": "Turkey Egg Scramble",
+      "servings": 1,
+      "short_description": "Scrambled eggs with seasoned ground turkey, mushrooms, spinach, and a sprinkle of flaxseed.",
+      "ingredients": [
+        { "name": "Ground turkey", "amount": "8 oz", "grams": 227, "prep": "loose" },
+        { "name": "Eggs", "amount": "3 large", "grams": 150, "prep": "beaten" },
+        { "name": "Spinach", "amount": "1 cup", "grams": 30, "prep": "chopped" },
+        { "name": "Mushrooms", "amount": "1/2 cup", "grams": 70, "prep": "sliced" },
+        { "name": "Olive oil", "amount": "1 tbsp", "grams": 14, "prep": "liquid" },
+        { "name": "Garlic", "amount": "2 cloves", "grams": 6, "prep": "minced" },
+        { "name": "Ground turmeric", "amount": "1/2 tsp", "grams": 1, "prep": "powder" },
+        { "name": "Black pepper", "amount": "1/4 tsp", "grams": 0.5, "prep": "ground" },
+        { "name": "Flaxseed", "amount": "1 tbsp", "grams": 10, "prep": "ground" }
+      ],
+      "macros": { "protein_g": 42, "carbs_g": 8, "fat_g": 24, "calories": 450, "omega_3_6_ratio": 9 },
+      "instructions": "Cook ground turkey with garlic, turmeric, and black pepper until browned. Add mushrooms and spinach and cook until softened. Pour in beaten eggs and scramble until fully cooked. Top with flaxseed."
+    },
+    {
+      "id": "recipe_004",
+      "name": "Turkey Lettuce Wraps",
+      "servings": 1,
+      "short_description": "Spiced ground turkey in lettuce cups with cucumber, carrot, and chia for crunch.",
+      "ingredients": [
+        { "name": "Ground turkey", "amount": "8 oz", "grams": 227, "prep": "loose" },
+        { "name": "Lettuce", "amount": "4 leaves", "grams": 60, "prep": "whole" },
+        { "name": "Cucumber", "amount": "1/2 medium", "grams": 100, "prep": "sliced" },
+        { "name": "Carrots", "amount": "1/4 cup", "grams": 30, "prep": "shredded" },
+        { "name": "Olive oil", "amount": "1 tbsp", "grams": 14, "prep": "liquid" },
+        { "name": "Garlic", "amount": "2 cloves", "grams": 6, "prep": "minced" },
+        { "name": "Ground turmeric", "amount": "1/2 tsp", "grams": 1, "prep": "powder" },
+        { "name": "Black pepper", "amount": "1/4 tsp", "grams": 0.5, "prep": "ground" },
+        { "name": "Chia seeds", "amount": "1 tbsp", "grams": 12, "prep": "whole" }
+      ],
+      "macros": { "protein_g": 38, "carbs_g": 11, "fat_g": 20, "calories": 390, "omega_3_6_ratio": 12 },
+      "instructions": "Cook ground turkey with garlic, turmeric, and black pepper until done. Spoon into lettuce leaves and top with sliced cucumber and shredded carrots. Sprinkle chia seeds on top."
+    },
+    {
+      "id": "recipe_005",
+      "name": "Turkey Cauliflower Stir Fry",
+      "servings": 1,
+      "short_description": "Ground turkey with broccoli and cauliflower rice, seasoned with garlic, turmeric, and flaxseed.",
+      "ingredients": [
+        { "name": "Ground turkey", "amount": "8 oz", "grams": 227, "prep": "loose" },
+        { "name": "Cauliflower rice", "amount": "1 cup", "grams": 100, "prep": "loose" },
+        { "name": "Broccoli", "amount": "1 cup", "grams": 90, "prep": "chopped" },
+        { "name": "Olive oil", "amount": "1 tbsp", "grams": 14, "prep": "liquid" },
+        { "name": "Garlic", "amount": "2 cloves", "grams": 6, "prep": "minced" },
+        { "name": "Ground turmeric", "amount": "1/2 tsp", "grams": 1, "prep": "powder" },
+        { "name": "Black pepper", "amount": "1/4 tsp", "grams": 0.5, "prep": "ground" },
+        { "name": "Flaxseed", "amount": "1 tbsp", "grams": 10, "prep": "ground" }
+      ],
+      "macros": { "protein_g": 40, "carbs_g": 12, "fat_g": 20, "calories": 400, "omega_3_6_ratio": 10 },
+      "instructions": "Cook ground turkey with garlic, turmeric, and black pepper until browned. Add broccoli and cook until slightly tender. Stir in cauliflower rice and cook until heated through. Top with flaxseed."
+    },
+    {
+      "id": "recipe_006",
+      "name": "Garlic Turmeric Chicken Thighs + Spinach",
+      "servings": 1,
+      "short_description": "Pan-seared chicken thighs with garlic and turmeric, served over wilted spinach.",
+      "ingredients": [
+        { "name": "Chicken thighs", "amount": "8 oz", "grams": 227, "prep": "cubed" },
+        { "name": "Spinach", "amount": "2 cups", "grams": 60, "prep": "whole leaves" },
+        { "name": "Olive oil", "amount": "1 tbsp", "grams": 14, "prep": "liquid" },
+        { "name": "Garlic", "amount": "2 cloves", "grams": 6, "prep": "minced" },
+        { "name": "Ground turmeric", "amount": "1/2 tsp", "grams": 1, "prep": "powder" },
+        { "name": "Black pepper", "amount": "1/4 tsp", "grams": 0.5, "prep": "ground" }
+      ],
+      "macros": { "protein_g": 42, "carbs_g": 6, "fat_g": 22, "calories": 420, "omega_3_6_ratio": 16 },
+      "instructions": "Heat olive oil in a pan over medium heat. Add garlic and cook briefly. Add cubed chicken thighs with turmeric and black pepper, cook until fully done (165°F internal). Add spinach and cook until wilted. Serve immediately."
+    },
+    {
+      "id": "recipe_007",
+      "name": "Chicken Avocado Bowl",
+      "servings": 1,
+      "short_description": "Diced spiced chicken over fresh spinach with sliced avocado.",
+      "ingredients": [
+        { "name": "Chicken breast", "amount": "8 oz", "grams": 227, "prep": "diced" },
+        { "name": "Avocado", "amount": "1/2 medium", "grams": 75, "prep": "sliced" },
+        { "name": "Spinach", "amount": "2 cups", "grams": 60, "prep": "whole leaves" },
+        { "name": "Olive oil", "amount": "1 tbsp", "grams": 14, "prep": "liquid" },
+        { "name": "Garlic", "amount": "2 cloves", "grams": 6, "prep": "minced" },
+        { "name": "Ground turmeric", "amount": "1/2 tsp", "grams": 1, "prep": "powder" },
+        { "name": "Black pepper", "amount": "1/4 tsp", "grams": 0.5, "prep": "ground" }
+      ],
+      "macros": { "protein_g": 40, "carbs_g": 10, "fat_g": 25, "calories": 430, "omega_3_6_ratio": 14 },
+      "instructions": "Cook diced chicken with garlic, turmeric, and pepper until done. Serve over spinach and top with sliced avocado."
+    },
+    {
+      "id": "recipe_008",
+      "name": "Chicken Zucchini Skillet",
+      "servings": 1,
+      "short_description": "One-skillet chicken and zucchini with garlic, turmeric, and black pepper.",
+      "ingredients": [
+        { "name": "Chicken breast", "amount": "8 oz", "grams": 227, "prep": "diced" },
+        { "name": "Zucchini", "amount": "1 medium", "grams": 150, "prep": "sliced" },
+        { "name": "Olive oil", "amount": "1 tbsp", "grams": 14, "prep": "liquid" },
+        { "name": "Garlic", "amount": "2 cloves", "grams": 6, "prep": "minced" },
+        { "name": "Ground turmeric", "amount": "1/2 tsp", "grams": 1, "prep": "powder" },
+        { "name": "Black pepper", "amount": "1/4 tsp", "grams": 0.5, "prep": "ground" }
+      ],
+      "macros": { "protein_g": 42, "carbs_g": 11, "fat_g": 20, "calories": 410, "omega_3_6_ratio": 17 },
+      "instructions": "Cook chicken with garlic, turmeric, and pepper. Add zucchini and cook until tender."
+    },
+    {
+      "id": "recipe_009",
+      "name": "Chicken Lettuce Taco Wraps",
+      "servings": 1,
+      "short_description": "Shredded seasoned chicken in lettuce wraps with cool cucumber.",
+      "ingredients": [
+        { "name": "Chicken breast", "amount": "8 oz", "grams": 227, "prep": "shredded" },
+        { "name": "Lettuce", "amount": "4 leaves", "grams": 60, "prep": "whole" },
+        { "name": "Cucumber", "amount": "1/2 medium", "grams": 100, "prep": "sliced" },
+        { "name": "Olive oil", "amount": "1 tbsp", "grams": 14, "prep": "liquid" },
+        { "name": "Garlic", "amount": "2 cloves", "grams": 6, "prep": "minced" },
+        { "name": "Ground turmeric", "amount": "1/2 tsp", "grams": 1, "prep": "powder" },
+        { "name": "Black pepper", "amount": "1/4 tsp", "grams": 0.5, "prep": "ground" }
+      ],
+      "macros": { "protein_g": 38, "carbs_g": 12, "fat_g": 21, "calories": 400, "omega_3_6_ratio": 17 },
+      "instructions": "Cook chicken with garlic, turmeric, and pepper, then shred. Serve in lettuce wraps with cucumber."
+    },
+    {
+      "id": "recipe_010",
+      "name": "Beef & Spinach Bowl",
+      "servings": 1,
+      "short_description": "Seasoned ground beef with garlic and turmeric, folded into tender spinach.",
+      "ingredients": [
+        { "name": "Ground beef", "amount": "8 oz", "grams": 227, "prep": "loose" },
+        { "name": "Spinach", "amount": "2 cups", "grams": 60, "prep": "whole leaves" },
+        { "name": "Olive oil", "amount": "1 tbsp", "grams": 14, "prep": "liquid" },
+        { "name": "Garlic", "amount": "2 cloves", "grams": 6, "prep": "minced" },
+        { "name": "Ground turmeric", "amount": "1/2 tsp", "grams": 1, "prep": "powder" },
+        { "name": "Black pepper", "amount": "1/4 tsp", "grams": 0.5, "prep": "ground" }
+      ],
+      "macros": { "protein_g": 40, "carbs_g": 7, "fat_g": 26, "calories": 450, "omega_3_6_ratio": 20 },
+      "instructions": "Cook ground beef with garlic, turmeric, and pepper. Add spinach and cook until wilted."
+    },
+    {
+      "id": "recipe_011",
+      "name": "Beef Stuffed Zucchini",
+      "servings": 1,
+      "short_description": "Zucchini halves baked with a savory ground beef filling.",
+      "ingredients": [
+        { "name": "Ground beef", "amount": "8 oz", "grams": 227, "prep": "loose" },
+        { "name": "Zucchini", "amount": "1 medium", "grams": 150, "prep": "halved" },
+        { "name": "Olive oil", "amount": "1 tbsp", "grams": 14, "prep": "liquid" },
+        { "name": "Garlic", "amount": "2 cloves", "grams": 6, "prep": "minced" },
+        { "name": "Ground turmeric", "amount": "1/2 tsp", "grams": 1, "prep": "powder" },
+        { "name": "Black pepper", "amount": "1/4 tsp", "grams": 0.5, "prep": "ground" }
+      ],
+      "macros": { "protein_g": 38, "carbs_g": 12, "fat_g": 25, "calories": 440, "omega_3_6_ratio": 21 },
+      "instructions": "Cook beef with garlic, turmeric, and pepper. Scoop zucchini halves slightly and fill with beef. Bake at 375°F for 15 minutes."
+    },
+    {
+      "id": "recipe_012",
+      "name": "Beef Egg Scramble",
+      "servings": 1,
+      "short_description": "Hearty scramble: ground beef with spinach, eggs, and warm spices.",
+      "ingredients": [
+        { "name": "Ground beef", "amount": "8 oz", "grams": 227, "prep": "loose" },
+        { "name": "Eggs", "amount": "3 large", "grams": 150, "prep": "beaten" },
+        { "name": "Spinach", "amount": "1 cup", "grams": 30, "prep": "chopped" },
+        { "name": "Olive oil", "amount": "1 tbsp", "grams": 14, "prep": "liquid" },
+        { "name": "Garlic", "amount": "2 cloves", "grams": 6, "prep": "minced" },
+        { "name": "Ground turmeric", "amount": "1/2 tsp", "grams": 1, "prep": "powder" },
+        { "name": "Black pepper", "amount": "1/4 tsp", "grams": 0.5, "prep": "ground" }
+      ],
+      "macros": { "protein_g": 45, "carbs_g": 6, "fat_g": 28, "calories": 480, "omega_3_6_ratio": 14 },
+      "instructions": "Cook ground beef with garlic, turmeric, and pepper until browned. Add spinach and cook until wilted. Pour in beaten eggs and scramble until fully cooked."
+    },
+    {
+      "id": "recipe_013",
+      "name": "Beef Lettuce Burgers",
+      "servings": 1,
+      "short_description": "Hand-formed beef patties with spices, wrapped in lettuce and topped with avocado.",
+      "ingredients": [
+        { "name": "Ground beef", "amount": "8 oz", "grams": 227, "prep": "formed patties" },
+        { "name": "Lettuce", "amount": "4 leaves", "grams": 60, "prep": "whole" },
+        { "name": "Avocado", "amount": "1/2 medium", "grams": 75, "prep": "sliced" },
+        { "name": "Olive oil", "amount": "1 tbsp", "grams": 14, "prep": "liquid" },
+        { "name": "Garlic", "amount": "2 cloves", "grams": 6, "prep": "minced" },
+        { "name": "Ground turmeric", "amount": "1/2 tsp", "grams": 1, "prep": "powder" },
+        { "name": "Black pepper", "amount": "1/4 tsp", "grams": 0.5, "prep": "ground" }
+      ],
+      "macros": { "protein_g": 42, "carbs_g": 9, "fat_g": 27, "calories": 460, "omega_3_6_ratio": 18 },
+      "instructions": "Form beef into patties and cook with garlic, turmeric, and pepper until desired doneness. Wrap in lettuce leaves and top with sliced avocado."
+    },
+    {
+      "id": "recipe_014",
+      "name": "Veggie Omelet + Avocado",
+      "servings": 1,
+      "short_description": "Mushroom and spinach omelet served with sliced avocado.",
+      "ingredients": [
+        { "name": "Eggs", "amount": "4 large", "grams": 200, "prep": "beaten" },
+        { "name": "Spinach", "amount": "1 cup", "grams": 30, "prep": "chopped" },
+        { "name": "Mushrooms", "amount": "1/2 cup", "grams": 70, "prep": "sliced" },
+        { "name": "Avocado", "amount": "1/2 medium", "grams": 75, "prep": "sliced" },
+        { "name": "Olive oil", "amount": "1 tbsp", "grams": 14, "prep": "liquid" }
+      ],
+      "macros": { "protein_g": 30, "carbs_g": 8, "fat_g": 26, "calories": 400, "omega_3_6_ratio": 11 },
+      "instructions": "Heat oil in a pan, cook mushrooms and spinach until soft. Add beaten eggs and cook into an omelet. Serve with sliced avocado."
+    },
+    {
+      "id": "recipe_015",
+      "name": "Egg Muffins",
+      "servings": 1,
+      "short_description": "Meal-prep friendly egg muffins with spinach and mushrooms.",
+      "ingredients": [
+        { "name": "Eggs", "amount": "4 large", "grams": 200, "prep": "beaten" },
+        { "name": "Spinach", "amount": "1 cup", "grams": 30, "prep": "chopped" },
+        { "name": "Mushrooms", "amount": "1/2 cup", "grams": 70, "prep": "diced" },
+        { "name": "Olive oil", "amount": "1 tbsp", "grams": 14, "prep": "liquid" }
+      ],
+      "macros": { "protein_g": 28, "carbs_g": 7, "fat_g": 24, "calories": 380, "omega_3_6_ratio": 13 },
+      "instructions": "Mix beaten eggs with chopped spinach and mushrooms. Pour into a greased muffin tin and bake at 350°F for 20 minutes until set."
+    },
+    {
+      "id": "recipe_016",
+      "name": "Eggs + Spinach + Chia",
+      "servings": 1,
+      "short_description": "Simple scrambled eggs with wilted spinach and chia on top.",
+      "ingredients": [
+        { "name": "Eggs", "amount": "4 large", "grams": 200, "prep": "scrambled" },
+        { "name": "Spinach", "amount": "1 cup", "grams": 30, "prep": "chopped" },
+        { "name": "Chia seeds", "amount": "1 tbsp", "grams": 12, "prep": "whole" },
+        { "name": "Olive oil", "amount": "1 tbsp", "grams": 14, "prep": "liquid" }
+      ],
+      "macros": { "protein_g": 26, "carbs_g": 6, "fat_g": 22, "calories": 360, "omega_3_6_ratio": 8 },
+      "instructions": "Scramble eggs in a pan with olive oil. Add spinach and cook until wilted. Plate and top with chia seeds."
+    },
+    {
+      "id": "recipe_017",
+      "name": "Yogurt + Chia + Almond Butter",
+      "servings": 1,
+      "short_description": "Thick Greek yogurt mixed with chia and almond butter—no cooking required.",
+      "ingredients": [
+        { "name": "Greek yogurt (plain, low carb)", "amount": "1 cup", "grams": 240, "prep": "none" },
+        { "name": "Chia seeds", "amount": "1 tbsp", "grams": 12, "prep": "whole" },
+        { "name": "Almond butter", "amount": "1 tbsp", "grams": 16, "prep": "spread" }
+      ],
+      "macros": { "protein_g": 25, "carbs_g": 12, "fat_g": 20, "calories": 350, "omega_3_6_ratio": 10 },
+      "instructions": "Add yogurt to a bowl. Stir in chia seeds and almond butter until evenly mixed."
+    },
+    {
+      "id": "recipe_018",
+      "name": "Yogurt + Flax + Berries",
+      "servings": 1,
+      "short_description": "Cool yogurt bowl with ground flaxseed and a handful of berries.",
+      "ingredients": [
+        { "name": "Greek yogurt (plain, low carb)", "amount": "1 cup", "grams": 240, "prep": "none" },
+        { "name": "Flaxseed", "amount": "1 tbsp", "grams": 10, "prep": "ground" },
+        { "name": "Berries (mixed)", "amount": "1/4 cup", "grams": 40, "prep": "whole" }
+      ],
+      "macros": { "protein_g": 24, "carbs_g": 14, "fat_g": 18, "calories": 340, "omega_3_6_ratio": 7 },
+      "instructions": "Add yogurt to a bowl. Mix in ground flaxseed and top with berries."
+    },
+    {
+      "id": "recipe_019",
+      "name": "Protein Shake + Almond Butter",
+      "servings": 1,
+      "short_description": "Smooth whey shake blended with almond butter for extra richness.",
+      "ingredients": [
+        { "name": "Whey isolate protein", "amount": "1 scoop", "grams": 30, "prep": "powder" },
+        { "name": "Water or almond milk", "amount": "1 cup", "grams": 240, "prep": "liquid" },
+        { "name": "Almond butter", "amount": "1 tbsp", "grams": 16, "prep": "spread" }
+      ],
+      "macros": { "protein_g": 40, "carbs_g": 5, "fat_g": 16, "calories": 300, "omega_3_6_ratio": 15 },
+      "instructions": "Blend whey isolate with liquid until smooth. Add almond butter and blend again until fully combined."
+    },
+    {
+      "id": "recipe_020",
+      "name": "Protein Shake + Chia",
+      "servings": 1,
+      "short_description": "Protein shake with chia—let it sit a minute for a thicker texture.",
+      "ingredients": [
+        { "name": "Whey isolate protein", "amount": "1 scoop", "grams": 30, "prep": "powder" },
+        { "name": "Water or almond milk", "amount": "1 cup", "grams": 240, "prep": "liquid" },
+        { "name": "Chia seeds", "amount": "1 tbsp", "grams": 12, "prep": "whole" }
+      ],
+      "macros": { "protein_g": 38, "carbs_g": 6, "fat_g": 15, "calories": 290, "omega_3_6_ratio": 9 },
+      "instructions": "Blend whey isolate with liquid. Stir in chia seeds and let sit 2-3 minutes before drinking."
+    },
+    {
+      "id": "recipe_021",
+      "name": "Protein Shake + Spinach",
+      "servings": 1,
+      "short_description": "Green protein smoothie with raw spinach blended until smooth.",
+      "ingredients": [
+        { "name": "Whey isolate protein", "amount": "1 scoop", "grams": 30, "prep": "powder" },
+        { "name": "Spinach", "amount": "1 cup", "grams": 30, "prep": "raw" },
+        { "name": "Water or almond milk", "amount": "1 cup", "grams": 240, "prep": "liquid" }
+      ],
+      "macros": { "protein_g": 38, "carbs_g": 7, "fat_g": 12, "calories": 280, "omega_3_6_ratio": 12 },
+      "instructions": "Blend all ingredients until smooth. Serve immediately."
+    }
+  ],
+  "weeklyPlan": {
+    "monday": { "1": "recipe_001", "2": "recipe_002", "3": "recipe_003" },
+    "tuesday": { "1": "recipe_004", "2": "recipe_005", "3": "recipe_006" },
+    "wednesday": { "1": "recipe_007", "2": "recipe_008", "3": "recipe_009" },
+    "thursday": { "1": "recipe_010", "2": "recipe_011", "3": "recipe_012" },
+    "friday": { "1": "recipe_013", "2": "recipe_014", "3": "recipe_015" },
+    "saturday": { "1": "recipe_016", "2": "recipe_017", "3": "recipe_018" },
+    "sunday": { "1": "recipe_019", "2": "recipe_020", "3": "recipe_021" }
+  },
+  "shopping_list": {
+    "sunday_non_perishables": [
+      { "name": "Olive oil", "amount": 224, "unit": "g", "approx_us": "16 tbsp" },
+      { "name": "Garlic", "amount": 78, "unit": "g", "approx_us": "26 cloves" },
+      { "name": "Ground turmeric", "amount": 13, "unit": "g", "approx_us": "6.5 tsp" },
+      { "name": "Black pepper", "amount": 6.5, "unit": "g", "approx_us": "3.25 tsp" },
+      { "name": "Chia seeds", "amount": 72, "unit": "g", "approx_us": "6 tbsp" },
+      { "name": "Flaxseed", "amount": 30, "unit": "g", "approx_us": "3 tbsp" },
+      { "name": "Almond butter", "amount": 32, "unit": "g", "approx_us": "2 tbsp" },
+      { "name": "Whey isolate protein", "amount": 90, "unit": "g", "approx_us": "3 scoops" }
+    ],
+    "sunday_to_wednesday_perishables": [
+      { "name": "Chicken breast", "amount": 908, "unit": "g", "approx_us": "2 lb" },
+      { "name": "Ground turkey", "amount": 908, "unit": "g", "approx_us": "2 lb" },
+      { "name": "Chicken thighs", "amount": 227, "unit": "g", "approx_us": "0.5 lb" },
+      { "name": "Ground beef", "amount": 454, "unit": "g", "approx_us": "1 lb" },
+      { "name": "Eggs", "amount": 150, "unit": "g", "approx_us": "3 large eggs" },
+      { "name": "Spinach", "amount": 300, "unit": "g", "approx_us": "10 cups" },
+      { "name": "Zucchini", "amount": 450, "unit": "g", "approx_us": "3 medium" },
+      { "name": "Avocado", "amount": 150, "unit": "g", "approx_us": "1 medium" },
+      { "name": "Bell peppers", "amount": 150, "unit": "g", "approx_us": "1 large" },
+      { "name": "Cauliflower rice", "amount": 200, "unit": "g", "approx_us": "2 cups" },
+      { "name": "Mushrooms", "amount": 70, "unit": "g", "approx_us": "0.5 cup" },
+      { "name": "Lettuce", "amount": 120, "unit": "g", "approx_us": "8 leaves" },
+      { "name": "Cucumber", "amount": 200, "unit": "g", "approx_us": "1 medium" },
+      { "name": "Carrots", "amount": 30, "unit": "g", "approx_us": "0.25 cup shredded" },
+      { "name": "Broccoli", "amount": 90, "unit": "g", "approx_us": "1 cup chopped" }
+    ],
+    "thursday_to_sunday_perishables": [
+      { "name": "Ground beef", "amount": 454, "unit": "g", "approx_us": "1 lb" },
+      { "name": "Eggs", "amount": 750, "unit": "g", "approx_us": "15 large eggs" },
+      { "name": "Greek yogurt", "amount": 480, "unit": "g", "approx_us": "2 cups" },
+      { "name": "Water or almond milk", "amount": 720, "unit": "g", "approx_us": "3 cups" },
+      { "name": "Spinach", "amount": 150, "unit": "g", "approx_us": "5 cups" },
+      { "name": "Avocado", "amount": 150, "unit": "g", "approx_us": "1 medium" },
+      { "name": "Mushrooms", "amount": 140, "unit": "g", "approx_us": "1 cup" },
+      { "name": "Lettuce", "amount": 60, "unit": "g", "approx_us": "4 leaves" },
+      { "name": "Berries", "amount": 40, "unit": "g", "approx_us": "0.25 cup" }
+    ]
+  },
+  "micronutrient_targets_weekly": {
+    "omega_3_g": { "min": 70, "max": 105 },
+    "magnesium_mg": { "min": 2450, "max": 2800 },
+    "potassium_mg": { "min": 21000, "max": 24500 },
+    "vitamin_c_mg": { "min": 525, "max": 700 },
+    "vitamin_k_mcg": { "min": 840 },
+    "vitamin_a_mcg": { "min": 4900, "max": 6300 },
+    "iron_mg": { "min": 56, "max": 70 },
+    "zinc_mg": { "min": 70, "max": 84 },
+    "selenium_mcg": { "min": 350, "max": 490 },
+    "fiber_g": { "min": 175, "max": 245 }
+  }
+}

@@ -1,0 +1,145 @@
+/**
+ * print.css
+ *
+ * Printable views share a single mechanism: interactive regions carry `.no-print`, while
+ * simplified layouts live in `.print-only` sections that remain `display: none` on screen.
+ * Immediately before `window.print()`, pages set `document.body.dataset.print` to `week`,
+ * `day`, `recipe`, or `shop`; matching `@media print` rules then reveal the correct block.
+ *
+ * This approach avoids duplicating entire route trees for print; it trades a small amount
+ * of duplicated markup in page components for predictable styling and easier grading.
+ */
+
+.print-only {
+  display: none;
+}
+
+.print-block {
+  max-width: 48rem;
+  margin-inline: auto;
+}
+
+.print-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.print-muted {
+  margin: 0 0 0.75rem;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.print-week-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.print-week-table th,
+.print-week-table td {
+  border: 1px solid #ccc;
+  padding: 0.35rem 0.5rem;
+  vertical-align: top;
+}
+
+.print-week-table th {
+  text-align: left;
+  background: #f4f4f4;
+}
+
+.print-week-table tfoot th,
+.print-week-table tfoot td {
+  font-weight: 700;
+  background: #f0f4f2;
+}
+
+.print-day-rollup {
+  margin-top: 1.25rem;
+  font-size: 0.95rem;
+}
+
+.print-day-rollup__note {
+  margin: 0.5rem 0 0;
+  font-size: 0.82rem;
+  color: #444;
+}
+
+.print-week-rollup-note {
+  margin-top: 1rem;
+  max-width: 48rem;
+}
+
+.print-day-sheet__note {
+  font-size: 0.9rem;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.print-day-meals {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.print-day-meal__title {
+  font-size: 1.05rem;
+  margin: 0.75rem 0 0.25rem;
+}
+
+.print-day-meal__desc {
+  margin: 0 0 0.35rem;
+  font-size: 0.95rem;
+}
+
+.print-day-meal__macros {
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+@media print {
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .app-header,
+  .app-footer,
+  .skip-link {
+    display: none !important;
+  }
+
+  .app-main {
+    max-width: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .print-only {
+    display: none !important;
+  }
+
+  body[data-print='week'] .print-only.print-week {
+    display: block !important;
+  }
+
+  body[data-print='day'] .print-only.print-day {
+    display: block !important;
+  }
+
+  body[data-print='recipe'] .print-only.print-recipe {
+    display: block !important;
+  }
+
+  body[data-print='shop'] .print-only.print-shop {
+    display: block !important;
+  }
+
+  a[href]::after {
+    content: none !important;
+  }
+}
