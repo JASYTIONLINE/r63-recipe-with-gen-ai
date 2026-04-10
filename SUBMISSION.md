@@ -69,6 +69,8 @@ git push -u origin main
 
 Paste the repository URL into the LMS field if required.
 
+**Live (Vercel):** [https://r63-recipe-with-gen-590wkhg6d-jasytionlines-projects.vercel.app/](https://r63-recipe-with-gen-590wkhg6d-jasytionlines-projects.vercel.app/)
+
 ---
 
 ## Files worth reviewing for comments and structure

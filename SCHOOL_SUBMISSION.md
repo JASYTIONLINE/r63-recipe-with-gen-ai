@@ -11,7 +11,7 @@
 | Resource | URL |
 |----------|-----|
 | **Source repository** | [https://github.com/JASYTIONLINE/r63-recipe-with-gen-ai](https://github.com/JASYTIONLINE/r63-recipe-with-gen-ai) |
-| **Live site (Vercel — use after deploy)** | *Deploy from this repo per [README — Deploy on Vercel](./README.md#deploy-on-vercel), then put your **Production** URL here.* |
+| **Live site (Vercel)** | [https://r63-recipe-with-gen-590wkhg6d-jasytionlines-projects.vercel.app/](https://r63-recipe-with-gen-590wkhg6d-jasytionlines-projects.vercel.app/) |
 | **Live site (GitHub Pages, optional)** | [https://jasytionline.github.io/r63-recipe-with-gen-ai/](https://jasytionline.github.io/r63-recipe-with-gen-ai/) — may need `base` / `basename` fixes to match Vercel behavior. |
 
 **Preferred demo URL:** Vercel production link (root hosting, SPA routing works after refresh). Same build as the repository; no local install required for reviewers.
@@ -79,7 +79,7 @@ A dedicated module, **`src/data/recipeDb.js`**, acts as an **adapter**: it maps 
 
 ## Verification steps for the instructor
 
-1. Open the **Vercel production URL** (fill in the table above after deploy) or follow **README → Deploy on Vercel** if the student has not yet pasted the link.
+1. Open the **Vercel production URL** in the table above ([live site](https://r63-recipe-with-gen-590wkhg6d-jasytionlines-projects.vercel.app/)).
 2. Navigate **Meal plan → All recipes**; use **search** (e.g. an ingredient or keyword from a recipe title).
 3. Open any **recipe** from a card or meal-plan image; confirm **ingredients** and **Prep/Cook**.
 4. Use **Print week** / **Print this day** on the meal plan and **Print** on shop and recipe pages (browser print preview is sufficient).

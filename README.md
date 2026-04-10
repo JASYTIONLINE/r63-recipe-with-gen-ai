@@ -32,6 +32,10 @@ Author content in **`src/data/recipe.db.json`**, then rebuild or refresh dev ser
 
 **https://github.com/JASYTIONLINE/r63-recipe-with-gen-ai**
 
+## Live site (Vercel)
+
+**https://r63-recipe-with-gen-590wkhg6d-jasytionlines-projects.vercel.app/**
+
 ## Deploy on Vercel
 
 The repo is designed to deploy from **GitHub** with **no `base` path changes** (root URL, standard `BrowserRouter`).
@@ -40,7 +44,7 @@ The repo is designed to deploy from **GitHub** with **no `base` path changes** (
 2. **Import** `JASYTIONLINE/r63-recipe-with-gen-ai` (authorize the GitHub app if prompted).
 3. Leave defaults: **Framework Preset** Vite (or Other with **Build Command** `npm run build`, **Output Directory** `dist`).
 4. Deploy. Vercel runs `npm install` and `npm run build`; **`vercel.json`** adds SPA rewrites so routes like `/recipes` work on refresh.
-5. Copy the **Production** URL from the project dashboard (e.g. `https://r63-recipe-with-gen-ai.vercel.app` — exact hostname may include your team slug). Paste that URL into your LMS write-up ([SCHOOL_SUBMISSION.md](./SCHOOL_SUBMISSION.md)).
+5. Copy the **Production** URL from the project dashboard. This project’s deployment: **[https://r63-recipe-with-gen-590wkhg6d-jasytionlines-projects.vercel.app/](https://r63-recipe-with-gen-590wkhg6d-jasytionlines-projects.vercel.app/)** (also listed in [SCHOOL_SUBMISSION.md](./SCHOOL_SUBMISSION.md)).
 
 **GitHub Pages** (`*.github.io/<repo>/`) still needs a `base` + `basename` if you use it; **Vercel is the recommended live demo** for this stack.
 
