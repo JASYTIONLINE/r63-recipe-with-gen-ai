@@ -34,7 +34,8 @@ Author content in **`src/data/recipe.db.json`**, then rebuild or refresh dev ser
 
 ## Assignment submission
 
-See **[SUBMISSION.md](./SUBMISSION.md)** for rubric checklist, STAR text, and GitHub steps.
+- **[SCHOOL_SUBMISSION.md](./SCHOOL_SUBMISSION.md)** — Formal write-up for the LMS: problem, solution, rubric mapping, **repo** and **GitHub Pages** links.
+- **[SUBMISSION.md](./SUBMISSION.md)** — Short checklist, STAR bullets, and clone/push notes.
 
 ## Original template
 
