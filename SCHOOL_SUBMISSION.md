@@ -11,9 +11,10 @@
 | Resource | URL |
 |----------|-----|
 | **Source repository** | [https://github.com/JASYTIONLINE/r63-recipe-with-gen-ai](https://github.com/JASYTIONLINE/r63-recipe-with-gen-ai) |
-| **Live site (GitHub Pages)** | [https://jasytionline.github.io/r63-recipe-with-gen-ai/](https://jasytionline.github.io/r63-recipe-with-gen-ai/) |
+| **Live site (Vercel — use after deploy)** | *Deploy from this repo per [README — Deploy on Vercel](./README.md#deploy-on-vercel), then put your **Production** URL here.* |
+| **Live site (GitHub Pages, optional)** | [https://jasytionline.github.io/r63-recipe-with-gen-ai/](https://jasytionline.github.io/r63-recipe-with-gen-ai/) — may need `base` / `basename` fixes to match Vercel behavior. |
 
-The live site is the same application as the repository: a static build deployed to GitHub Pages so reviewers can exercise routes and print behavior without installing Node.
+**Preferred demo URL:** Vercel production link (root hosting, SPA routing works after refresh). Same build as the repository; no local install required for reviewers.
 
 ---
 
@@ -57,7 +58,7 @@ A dedicated module, **`src/data/recipeDb.js`**, acts as an **adapter**: it maps 
 3. **Adapter (`recipeDb.js`):** Exposes `getAllRecipes`, `getRecipeById`, `getWeeklyPlanOrdered`, shopping section getters, `formatMacroSummary`, `sumMacros` (day/week rollups), and `recipeMatchesSearchQuery` for the search bar.
 4. **UI:** One component per route under `src/pages/`; shared **`RecipeList`**, **`RecipeCard`**, **`SearchBar`** for the required list experience.
 5. **Quality:** **`npm run lint`** and **`npm run build`** are clean; source is commented at file level for instructor and student readers.
-6. **Version control & hosting:** Git repository on GitHub; production build deployed to **GitHub Pages** at the URL above.
+6. **Version control & hosting:** Git repository on GitHub; production build deployed to **Vercel** from the same repo (see `vercel.json` for SPA rewrites). **GitHub Pages** is optional and may require extra `base` / `basename` configuration for this Vite app.
 
 ---
 
@@ -78,7 +79,7 @@ A dedicated module, **`src/data/recipeDb.js`**, acts as an **adapter**: it maps 
 
 ## Verification steps for the instructor
 
-1. Open the **live site:** [https://jasytionline.github.io/r63-recipe-with-gen-ai/](https://jasytionline.github.io/r63-recipe-with-gen-ai/).
+1. Open the **Vercel production URL** (fill in the table above after deploy) or follow **README → Deploy on Vercel** if the student has not yet pasted the link.
 2. Navigate **Meal plan → All recipes**; use **search** (e.g. an ingredient or keyword from a recipe title).
 3. Open any **recipe** from a card or meal-plan image; confirm **ingredients** and **Prep/Cook**.
 4. Use **Print week** / **Print this day** on the meal plan and **Print** on shop and recipe pages (browser print preview is sufficient).
@@ -88,7 +89,7 @@ A dedicated module, **`src/data/recipeDb.js`**, acts as an **adapter**: it maps 
 
 ## Conclusion
 
-This submission delivers a **read-only React recipe and meal-plan application** that satisfies the core assignment (**list, search, detail, routing, data integration**) and implements the extended product (**weekly plan, dual shopping lists, print suite**). Data flows **JSON → adapter → components**, matching the intended **AI-assisted authoring, human-reviewed import** workflow. The **repository** preserves full source and history; the **GitHub Pages** link provides immediate, install-free access for rubric review.
+This submission delivers a **read-only React recipe and meal-plan application** that satisfies the core assignment (**list, search, detail, routing, data integration**) and implements the extended product (**weekly plan, dual shopping lists, print suite**). Data flows **JSON → adapter → components**, matching the intended **AI-assisted authoring, human-reviewed import** workflow. The **repository** preserves full source and history; **Vercel** (deployed from the same GitHub repo) provides install-free access for rubric review, with correct SPA routing after refresh.
 
 ---
 
