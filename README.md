@@ -28,6 +28,10 @@ Legacy **`/shopping-list`** redirects to **`/shop/sunday`**.
 
 Author content in **`src/data/recipe.db.json`**, then rebuild or refresh dev server. The adapter **`src/data/recipeDb.js`** maps JSON shapes to props for list cards, detail, and search.
 
+## Repository
+
+**https://github.com/JASYTIONLINE/r63-recipe-with-gen-ai**
+
 ## Assignment submission
 
 See **[SUBMISSION.md](./SUBMISSION.md)** for rubric checklist, STAR text, and GitHub steps.

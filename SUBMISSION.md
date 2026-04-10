@@ -55,13 +55,19 @@ To publish:
 1. Create an empty repository on GitHub (no README if you already have one locally).
 2. Add the remote and push:
 
+This project was published at:
+
+**https://github.com/JASYTIONLINE/r63-recipe-with-gen-ai**
+
+If you clone elsewhere, use:
+
 ```text
-git remote add origin https://github.com/<your-account>/<your-repo>.git
+git remote add origin https://github.com/JASYTIONLINE/r63-recipe-with-gen-ai.git
 git branch -M main
 git push -u origin main
 ```
 
-Paste the **public repository URL** into the LMS field if required.
+Paste the repository URL into the LMS field if required.
 
 ---
 
