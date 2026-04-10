@@ -1,3 +1,11 @@
+/*
+ * App.css
+ *
+ * Screen-layout styles for the application shell, recipe grid, meal-plan cards, shopping
+ * sections, and detail pages. Print-specific rules live in print.css so students can study
+ * separation of concerns between on-screen and hard-copy presentation.
+ */
+
 .skip-link {
   position: absolute;
   left: 0.5rem;
